@@ -62,6 +62,7 @@ export interface StepProps {
   placementBeacon?: placementBeacon;
   showProgress?: boolean;
   showSkipButton?: boolean;
+  showSkipButtonForLastStep?: boolean;
   spotlightClicks?: boolean;
   spotlightPadding?: number;
   styles?: Object;
@@ -101,6 +102,7 @@ export interface JoyrideProps {
   scrollToFirstStep?: boolean;
   showProgress?: boolean;
   showSkipButton?: boolean;
+  showSkipButtonForLastStep?: boolean;
   scrollDuration?: number;
   spotlightClicks?: boolean;
   spotlightPadding?: boolean;

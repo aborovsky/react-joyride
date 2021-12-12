@@ -37,6 +37,7 @@ export default class JoyrideTooltipContainer extends React.Component {
       hideFooter,
       showProgress,
       showSkipButton,
+      showSkipButtonForLastStep,
       title,
       styles,
     } = step;
@@ -57,7 +58,7 @@ export default class JoyrideTooltipContainer extends React.Component {
       }
     }
 
-    if (showSkipButton && !isLastStep) {
+    if (showSkipButton && (!isLastStep || showSkipButtonForLastStep)) {
       output.skip = (
         <button
           style={styles.buttonSkip}

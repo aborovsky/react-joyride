@@ -21,6 +21,7 @@ function getTourProps(props: Object): Object {
     'locale',
     'showProgress',
     'showSkipButton',
+    'showSkipButtonForLastStep',
     'spotlightClicks',
     'spotlightPadding',
     'styles',

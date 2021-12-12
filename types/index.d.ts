@@ -102,6 +102,7 @@ export interface CommonProps {
   nonce?: string;
   showProgress?: boolean;
   showSkipButton?: boolean;
+  showSkipButtonForLastStep?: boolean;
   spotlightClicks?: boolean;
   spotlightPadding?: number;
   styles?: Styles;

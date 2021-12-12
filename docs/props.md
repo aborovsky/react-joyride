@@ -70,6 +70,9 @@ Display the tour progress in the next button \_e.g. 2/5 \_in `continuous` tours.
 **showSkipButton** {boolean} ▶︎ `false`  
 Display a button to skip the tour.
 
+**showSkipButtonForLastStep** {boolean} ▶︎ `false`  
+Display a button to skip the tour even if current step is last one.
+
 **spotlightClicks** {boolean} ▶︎ `false`  
 Allow mouse and touch events thru the spotlight. You can click links in your app.
 

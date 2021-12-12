@@ -70,6 +70,7 @@ Step will inherit some properties from Joyride's own [props](props.md) but you c
 - locale
 - showProgress
 - showSkipButton
+- showSkipButtonForLastStep
 - spotlightClicks
 - spotlightPadding
 - styles
